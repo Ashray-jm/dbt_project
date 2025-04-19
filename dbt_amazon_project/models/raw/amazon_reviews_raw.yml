@@ -1,0 +1,11 @@
+version: 2
+models:
+  - name: amazon_reviews_raw
+    description: "This model transforms raw Amazon reviews data, cleaning and aggregating review counts per product."
+    # columns:
+    #   - name: review_count
+    #     description: "Number of reviews per product"
+    config:
+      tags:
+        - review
+        - raw

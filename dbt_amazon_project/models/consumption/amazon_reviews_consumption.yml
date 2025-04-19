@@ -1,0 +1,9 @@
+version: 2
+models:
+  - name: amazon_reviews_consumption
+    description: "This model transforms raw Amazon reviews data, cleaning and aggregating review counts per product."
+    config:
+      tags:
+        - review
+        - consumption
+    enabled: true
